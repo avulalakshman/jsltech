@@ -8,21 +8,41 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
         <title>Java Interview Questions</title>
         <style>
+            .card button {
+            
+                padding: 2px 2px 2px 2px;
+                
+            }
+            .card-header{
+             
+                padding: 2px 2px 2px 2px;
+            }
+            .card-body{
+                
+                padding: 2px 2px 2px 2px;
+            }
+            .card {
+                width: 60%;
+                padding: 2px 2px 2px 2px;
+            }
+
             .question {
+                margin-top: 8px;
                 background: gray;
                 color: white;
-                padding: 10px 5px 5px;
+                padding: 1px 2px 1px 2px;
             }
             #main-heading {
+                width: 60%;
                 list-style: none;
             }
-            #main-heading > li * {
+            #main-heading li ol {
                 list-style: none;
             }
             .answer {
                 background-color: white;
                 border: 1px solid gray;
-                padding: 5px 2px 2px 10px;
+                padding: 2px 2px 2px 2px;
             }
             #sublist > li {
                 list-style: disc;
@@ -31,22 +51,21 @@
     </head>
     <body>
         <div class="accordion" id="accordionExample">
-            <ul id="main-heading">
+            <ul
+                id="main-heading">
 
                 <!-- Start of set 1 -->
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                1
+                                <b>Set-1</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
                             <li>
-                                <b>Set-1</b>
-
                                 <ol>
                                     <li>
                                         <p class="question">What is OOP?</p>
@@ -62,12 +81,24 @@
                                     </li>
                                     <li>
                                         <p class="question">What is  Abstraction?</p>
+                                        <div class="answer">
+                                            abstraction is the process of hiding certain details and showing only essential information to the user.
+                                            
+                                        </div>
                                     </li>
                                     <li>
                                         <p class="question">What is Polymorphism?</p>
+                                        <div class="answer">
+                                            polymorphism is a concept by which we can perform a single action in different ways. ... So polymorphism means many forms. 
+                                            
+                                        </div>
                                     </li>
                                     <li>
                                         <p class="question">What is Inheritance?</p>
+                                        <div class="answer">
+                                            is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+                                            
+                                        </div>
                                     </li>
                                     <li>
                                         <p class="question">What is immutable Object and how to create a immutable class?</p>
@@ -84,14 +115,14 @@
                     <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                2
+                                <b>Set-2</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
                             <li>
-                                <b>Set-2</b>
+
                                 <ol>
                                     <li>
                                         <p class="question">What is JDK,JRE JVM?</p>
@@ -123,16 +154,13 @@
                     <div class="card-header" id="headingThree">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                3
+                                <b>Set-3</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-3</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
@@ -145,16 +173,13 @@
                     <div class="card-header" id="headingFour">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                4
+                                <b>Set-4</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-4</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
@@ -167,16 +192,13 @@
                     <div class="card-header" id="headingFive">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                5
+                                <b>Set-5</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-5</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
@@ -189,16 +211,13 @@
                     <div class="card-header" id="headingSix">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                6
+                                <b>Set-6</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-6</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
@@ -211,38 +230,32 @@
                     <div class="card-header" id="headingSeven">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                7
+                                <b>Set-7</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-7</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
 
                 <!-- End of set 7 -->
 
-                 <!-- Start of set 8 -->
+                <!-- Start of set 8 -->
 
-                 <div class="card">
+                <div class="card">
                     <div class="card-header" id="headingEight">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                8
+                                <b>Set-8</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-8</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
@@ -255,16 +268,13 @@
                     <div class="card-header" id="headingNine">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                9
+                                <b>Set-9</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-9</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
@@ -277,28 +287,18 @@
                     <div class="card-header" id="headingTen">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                10
+                                <b>Set-10</b>
                             </button>
                         </h2>
                     </div>
                     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                         <div class="card-body">
-                            <li>
-                                <b>Set-10</b>
-        
-                            </li>
+                            <li></li>
                         </div>
                     </div>
                 </div>
 
                 <!-- End of set 10 -->
-
-
-
-
-
-
-
 
 
             </ul>
@@ -312,9 +312,9 @@
 
         <!-- Option 2: Separate Popper and Bootstrap JS -->
         <!-- 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-        -->
+                 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+                 -->
     </body>
-</html></body></html>
+</html>
